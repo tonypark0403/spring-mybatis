@@ -4,6 +4,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <a href="${path}">Home</a>
-|
 <a href="${path}/memo/list.do">Memo</a>
+<a href="${path}/upload/uploadForm">Upload</a>
 <hr>
