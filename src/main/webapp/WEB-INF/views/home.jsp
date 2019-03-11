@@ -9,6 +9,9 @@
 </head>
 <body>
 	<%@ include file="include/menu.jsp"%>
+	<c:if test="${sessionScope.userid != null }">
+		<h2>Welcome to Home, ${sessionScope.name}(${sessionScope.userid}).</h2>
+	</c:if>
 
 	<h1>Hello world!</h1>
 
